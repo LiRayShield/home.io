@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
         appendFps = function (fpsValue) {
-            fpsElement.textContent = 'FPS: ' + fpsValue;
+            // fpsElement.textContent = 'FPS: ' + fpsValue;
         };
 
         step();
